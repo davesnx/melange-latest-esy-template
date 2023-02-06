@@ -1,4 +1,5 @@
-(dirs src node_modules)
+; This file is used to add dune `library` inside node_modules/@rescript/react/src so dune is aware of `rescript_react` and can be used as libraries
+(dirs src node_modules) ; Without the above part, dirs should only contain `src`.
 
 (subdir
  node_modules

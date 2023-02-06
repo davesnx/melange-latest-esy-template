@@ -5,4 +5,3 @@
  (libraries rescript_react)
  (module_system es6)
  (compile_flags :standard -bs-jsx 3))
-
