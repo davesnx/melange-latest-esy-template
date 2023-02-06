@@ -1,0 +1,6 @@
+{
+  "ocaml.sandbox": {
+    "kind": "custom",
+    "template": "esy -P ${workspaceFolder:melange-esy-template} $prog $args --fallback-read-dot-merlin"
+  }
+}
