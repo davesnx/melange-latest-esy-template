@@ -1,0 +1,8 @@
+(melange.emit
+ (target es6)
+ (alias melange)
+ (entries app)
+ (libraries rescript_react)
+ (module_system es6)
+ (compile_flags :standard -bs-jsx 3))
+

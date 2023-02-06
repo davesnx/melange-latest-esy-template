@@ -6,7 +6,5 @@ _esy
 _opam
 .bsb.lock
 .merlin
-dune
-dune.mel
 .melange.eobjs
 dist/
